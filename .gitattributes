@@ -1,0 +1,10 @@
+# Tell GitHub Linguist to ignore platform-native files
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+web/** linguist-vendored
+
+# Prioritize Dart code
+lib/** linguist-language=Dart
